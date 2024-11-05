@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #7973e6b2;
+}
+
+#events{
+  color: rgb(255, 255, 255);
+}
+
+.input-align{
+ display: flex;
+ justify-content: center;
+}
+
+#n1{
+ position: absolute;
+ top: 150px;
+ left: 860px;
+ font-size: xx-large;
+ text-decoration: none;
+ color: #31fa31;
+ font-weight: bolder;
+ 
+}
+
+#display-li{
+  position: relative;
+  top: 100px;
+  right: 100px;
+  list-style: circle;
+  color: rgb(253, 249, 249);
+  
+  
+}
+
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #4cae4c;
+}
+
+
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .App {
+    padding: 10px;
+  }
+}
